@@ -1,0 +1,164 @@
+@media (max-width: 576px)and (orientation:portrait){
+
+    h1{
+        text-align: center;
+        font-size: 3em;
+        font-family: cursive;
+    }
+
+    form{
+        text-align: center;
+    }
+
+    a{
+        font-family: cursive;
+        text-decoration: none;
+    }
+
+    .fuera, .perfil{
+        color: black;
+    }
+
+    .fuera:hover, .perfil:hover{
+        text-shadow: 1px 1px 2px black;
+        color: white;
+    }
+
+    #imagen{
+        margin: 0 auto;
+        width: 35%;
+    }
+
+    #imagen img{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .datos{
+        font-size: 1.2em;
+        font-family: cursive;
+    }
+
+    #ingresa, #boton{
+        padding: 0.6em 0em;
+    }
+
+    #usuario{
+        margin-top: 0.5em;
+        font-family: cursive;
+        margin-top: 0.5em;
+        font-family: cursive;
+        margin-bottom: 0.5em;
+    }
+
+    .registro, .boton{
+        margin-top: 1%;
+        padding: 0.5em;
+        font-family: cursive;
+        font-size: 1.1em;
+        border-radius: 5%;
+    }
+
+    /*De acá para arriba es de index.html*/
+
+    .perfil{
+        float: right;
+    }
+
+    .juego1{
+        margin: 0 auto;
+        display: block;
+        width: 45%;
+        font-size: 2.5em;
+        padding: 3% 0%;
+        margin-top: 5%;
+        font-family: cursive;
+        background-color: salmon;
+        color: white;
+        border-radius: 5%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .juego1:hover{
+        border-style: dotted;
+        border-color: salmon;
+        background-color: white;
+        color: salmon;
+    }
+
+    .juego2{
+        margin: 0 auto;
+        display: block;
+        width: 45%;
+        font-size: 2.5em;
+        padding: 3% 0%;
+        margin-top: 3%;
+        font-family: cursive;
+        background-color: darkcyan;
+        color: white;
+        border-radius: 5%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .juego2:hover{
+        border-style: groove;
+        border-color: darkcyan;
+        background-color: white;
+        color: darkcyan;
+    }
+
+    .juego3{
+        margin: 0 auto;
+        display: block;
+        width: 45%;
+        font-size: 2.5em;
+        padding: 3% 0%;
+        margin-top: 3%;
+        font-family: cursive;
+        background-color: black;
+        color: white;
+        border-radius: 5%;
+        transition: 0.5s ease-in-out;
+    }
+
+    .juego3:hover{
+        border-style: dashed;
+        border-color: black;
+        background-color: white;
+        color: black;
+    }
+
+    /*De acá para arriba es de perfil.html*/
+
+    #registro{
+        text-align: center;
+    }
+
+    /*De acá para arriba es de registro.html*/
+
+    #img {
+        width: 35%;
+        margin: 0 auto;
+    }
+
+    #img input{
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    #perfil{
+        text-align: center;
+    }
+
+    #nick{
+        margin-top: 0.5em;
+        font-family: cursive;
+        margin-bottom: 0.5em;
+    }
+
+    textarea{
+        margin-bottom: 0.5em;
+    }
+
+/*De acá para arriba es de editar.html*/
+}
