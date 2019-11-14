@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+table{
+    border-collapse: collapse;
+    color: salmon;
+    border-color: white;
+    background-color: salmon;
+}
+
+td,tr{
+    padding: 3em;
+    border-width: medium;
+    color: white;
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+h1{
+    text-align: center;
+    color: salmon;
+    font-family: cursive;
+}
+
+#datos{
+    color: salmon;
+    text-align: center;
+    padding: 2.5em;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+#cartel {
+    position: absolute;
+    background-color: white;
+    display: none;
+    opacity: 1.5;
+    margin-left: 22%;
+    margin-top: 10%;
+}
+
+#ganador {
+    text-align: center;
+    font-family: cursive;
+    color: salmon;
+    font-size: 1.1em;
+    margin: 3em 2em 0em 2em;
+}
+
+#reinicio {
+    margin-left: 40%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: cursive;
+    border-radius: 5%;
+    padding: 0.5em;
+}
