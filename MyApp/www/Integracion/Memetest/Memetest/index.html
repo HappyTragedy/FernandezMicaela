@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="assets/css/styles.css">
+    <title>Memotest</title>
+</head>
+<body onload="loadData()">
+    <a href="#" class="fuera" onclick="salir()">Salir</a>
+    <header>
+        <h1>Memotest</h1>
+    </header>
+    <main>
+        <div id="seleccion">
+            <select id='rowsAndCols' onchange='selectTable()'>
+                <option value="none" selected disabled hidden>Seleccionar</option>
+                <option value="4">4x4</option>
+                <option value="5">5x5</option>
+                <option value="6">6x6</option>
+            </select>
+        </div>
+        <div id="turnos"></div>
+        <div id="jugadores">
+            <p id="point1"></p>
+            <p id="point2"></p>
+        </div>
+        <table>
+            <tbody id='memo'></tbody>
+            <!--JS-->
+        </table>
+
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
